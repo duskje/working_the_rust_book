@@ -148,3 +148,4 @@ use working_the_rust_book::eat_at_restaurant2;
 fn main() {
     eat_at_restaurant2();
 }
+// 8
