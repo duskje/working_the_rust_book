@@ -133,11 +133,18 @@ fn if_let_test(){
         println!("The maximum set is {}", max)
     }
 }
-// 7 Managing growing projects (incomplete)
 
-use crate::my_module::my_submodule::print_poop;
+// 7 Managing growing projects
+
 pub mod my_module;
 
-fn main() {
+use crate::my_module::my_submodule::print_poop;
+
+fn packages_main() {
     print_poop();
+}
+
+use working_the_rust_book::eat_at_restaurant2;
+fn main() {
+    eat_at_restaurant2();
 }
